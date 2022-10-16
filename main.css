@@ -1,0 +1,149 @@
+body {
+    background-color: black;
+    height: 2300px;
+}
+
+.frame {
+    margin: 50px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 20px;
+}
+
+ul {
+    margin: 0;
+}
+
+.site-name {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #13ff7d;
+    letter-spacing: 1px;
+}
+
+.nav-menu {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #13ff7d;
+}
+
+.nav-menu:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+.dashboard {
+    color: #13ff7d;
+    font-size: 80px;
+    font-family:'Fira Mono', monospace;
+    font-weight: 400;
+    line-height: 35px;
+    margin-top: 150px;
+}
+
+.dashboard {
+    animation: blink-effect 1s step-end 2;
+} 
+
+@keyframes blink-effect {
+    50% {
+    opacity: 0;
+    }
+} 
+
+.parent_about_txt {
+    height: 55px;
+    overflow-y: hidden;
+    display: block;
+}
+
+.about_txt {
+    width: 900px;
+    height: 400px;
+    margin-top: 400px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+    animation-name: grow;
+    animation-duration: 4s;
+}
+
+.hello {
+    font-size: 27px;
+}
+
+.hover2:hover {
+    color: #ff1366;
+    transition: 0.1s;
+}
+
+.about_img {
+    background-image: url(cat.png);
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    background-color: black;
+    top: 900px;
+    right: 150px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+@keyframes grow {
+    from { transform: translateY(80px) }
+    to { transform: translateY(0) }
+}
+
+.parent_goal_txt {
+    height: 55px;
+    overflow-y: hidden;
+    display: block;
+}
+
+.goal_txt {
+    width: 900px;
+    height: 400px;
+    margin-top: 80px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+    animation-name: grow;
+    animation-duration: 4s;
+}
+
+.parent_contact_txt {
+    height: 55px;
+    overflow-y: hidden;
+    display: block;
+}
+
+.contact_txt {
+    width: 900px;
+    height: 400px;
+    margin-top: 80px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+    animation-name: grow;
+    animation-duration: 4s;
+}
